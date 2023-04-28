@@ -9,8 +9,12 @@ func mult(a int, b int) int {
   return a * b
 }
 
-func lenAndUpper(name string)(int, string){
-  return len(name), strings.ToUpper(name)
+func lenAndUpper(name string)(length int, uppercase string){
+  defer fmt.Println("lenAndUpper함수가 실행되었습니다.")
+  length = len(name)
+  uppercase = strings.ToUpper(name)
+  // naked return
+  return 
 }
 
 func repeatMe(words ...string) {
