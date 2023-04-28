@@ -14,7 +14,7 @@ func main(){
   fmt.Println(name)
 }
 ```
-당연히 const로 선언된 Constant값이기에 수정을 불가하며, `go run main.go`를 통해 실행하면 name에 할당된 문자열이 출력될 것이다.
+당연히 const로 선언된 Constant값이기에 수정은 불가하며, `go run main.go`를 통해 실행하면 name에 할당된 문자열이 출력될 것이다.
 
 #### Variable(변수)
 Go를 이용해서 변수를 생성해보자.
