@@ -21,11 +21,30 @@ func repeatMe(words ...string) {
   fmt.Println(words)
 }
 
+func isAdult(age int) bool {
+  switch koreanAge := age + 2; {
+  case koreanAge < 18:
+    return false
+  case koreanAge == 18:
+    return true
+  case koreanAge > 50:
+    return false
+  }
+  return true
+  // koreanAge := age + 2;
+  // if koreanAge < 16 {
+  //   return false
+  // }
+  // fmt.Println(koreanAge)
+  // return true
+}
+
 func main(){
-  fmt.Println(mult(2, 2))
-  totalLen, totalUpper := lenAndUpper("LeeHeonWoo1")
-  fmt.Println(totalLen, totalUpper)
-  repeatMe("a", "b", "c", "d", "e")
+  fmt.Println(isAdult(16))
+  // fmt.Println(mult(2, 2))
+  // totalLen, totalUpper := lenAndUpper("LeeHeonWoo1")
+  // fmt.Println(totalLen, totalUpper)
+  // repeatMe("a", "b", "c", "d", "e")
 }
 
 
