@@ -1,8 +1,3 @@
-### Nomad Coder GO 강의
-특징 
-- multicore-processing, 병행성
-- 빠른 속도
-
 ### 시작
 src 내에 `github.com`이라는 디렉토리를 만들자. 이후 그 안에 내 github이름으로 된 폴더를 하나 만든다.  
 `[C:\Users\OWNER\Desktop\GO\src\github.com\LeeHeonWoo1]`  
